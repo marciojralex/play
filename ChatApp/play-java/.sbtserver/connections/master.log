@@ -1,0 +1,68 @@
+New log file opened at Thu Jan 19 10:26:02 BRST 2017 by 6476@marcio
+Taking next connection to: 57701
+New client attempting to connect on port: 57702-57701
+  Address = /192.168.25.4:57701
+This client on port 57702 has uuid c62097d9-7a2d-479f-a077-44ab800de1a4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c62097d9-7a2d-479f-a077-44ab800de1a4
+Taking next connection to: 57701
+New client attempting to connect on port: 57703-57701
+  Address = /192.168.25.4:57701
+Handshake exception on socket: 57703
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 57701
+New client attempting to connect on port: 57704-57701
+  Address = /192.168.25.4:57701
+This client on port 57704 has uuid c8ddaed5-cfef-4a57-921c-86a48d05dfa4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c62097d9-7a2d-479f-a077-44ab800de1a4, activator-c8ddaed5-cfef-4a57-921c-86a48d05dfa4
+Taking next connection to: 57701
+New client attempting to connect on port: 57707-57701
+  Address = /192.168.25.4:57701
+Handshake exception on socket: 57707
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 57701
+New client attempting to connect on port: 57708-57701
+  Address = /192.168.25.4:57701
+This client on port 57708 has uuid cee97dbd-25fa-4897-a287-b87977b4a921 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-c8ddaed5-cfef-4a57-921c-86a48d05dfa4, play-fork-run-cee97dbd-25fa-4897-a287-b87977b4a921
+Taking next connection to: 57701
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57701
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57701
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 6476@marcio logs at Thu Jan 19 10:35:36 BRST 2017, goodbye.
